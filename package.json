@@ -1,0 +1,20 @@
+{
+  "name": "jingshu",
+  "version": "0.0.1",
+  "description": "gitbook for my favor jingshu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanyou/jingshu.git"
+  },
+  "author": "Shan You <shanyou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-gh-pages": "^0.10.0",
+    "grunt-http-server": "^1.4.0"
+  }
+}
