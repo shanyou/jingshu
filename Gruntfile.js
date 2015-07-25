@@ -48,6 +48,15 @@ module.exports = function(grunt) {
               github: "shanyou/jingsh",
               format: "website",
               logLevel: "info"
+          },
+          jzdsy: {
+              input: "jzdsy/",
+              output: "_html/jzdsy",
+              title: "觉者的生涯",
+              description: "佛陀的故事",
+              github: "shanyou/jingsh",
+              format: "website",
+              logLevel: "info"
           }
       },
       'gh-pages': {
@@ -79,6 +88,7 @@ module.exports = function(grunt) {
   grunt.registerTask('test', [
       'gitbook:dzj',
       'gitbook:amtj',
+      'gitbook:jzdsy',
       'http-server'
   ]);
 
