@@ -57,6 +57,15 @@ module.exports = function(grunt) {
               github: "shanyou/jingsh",
               format: "website",
               logLevel: "info"
+          },
+          wls: {
+              input: "wls/",
+              output: "_html/wls",
+              title: "大乘无量寿庄严清净平等觉经",
+              description: "净土大经",
+              github: "shanyou/wls",
+              format: "website",
+              logLevel: "info"
           }
       },
       'gh-pages': {
@@ -89,6 +98,7 @@ module.exports = function(grunt) {
       'gitbook:dzj',
       'gitbook:amtj',
       'gitbook:jzdsy',
+      'gitbook:wls',
       'http-server'
   ]);
 
